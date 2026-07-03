@@ -1,6 +1,8 @@
 # injectexe
 poc allowing you to inject executeable files as if they were dlls.
 
+the core of this project is almost 1:1 with https://github.com/moonlightrblx/telepathy/
+
 # how it works
 
 its a normal manual mapper but instead of mapping an entire file we map 2 things
@@ -19,5 +21,4 @@ set the function resolver to resolve "main" instead of "injectexe_entry"
 move the code you want to run in the injected process inside of main instead of the entry
 
 viola :)
-
 
